@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: wndudwns0028/app:v1
+      - image: wndudwns0028/app:v2
         name: test
         ports:
         - containerPort: 80
